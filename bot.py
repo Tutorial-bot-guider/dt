@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 #prefix
-bot=commands.Bot(command_prefix='$')
+bot=commands.Bot(command_prefix='A!')
 
 #on_Ready
 @bot.event
@@ -63,12 +63,12 @@ async def h(ctx):
 
 
 @bot.command()
-async def t(ctx):
+async def j(ctx):
     if 'owner' in [i.name for i in ctx.message.author.roles]:
-        await ctx.send(f'''@everyone **It's Trivaa Time!!**''')
-        await ctx.send(f'''@everyone **It's Trivaa Time!!**''')
-        await ctx.send(f'''@everyone **It's Trivaa Time!!**''')
-        await ctx.send(f'''@everyone **It's Trivaa Time!!**''')
+        await ctx.send(f'''@everyone **It's JEETOH Time!!**''')
+        await ctx.send(f'''@everyone **It's JEETOH Time!!**''')
+        await ctx.send(f'''@everyone **It's JEETOH Time!!**''')
+        await ctx.send(f'''@everyone **It's JEETOH Time!!**''')
 
     else:
         await ctx.send('Lol You have no perms')
@@ -180,7 +180,7 @@ async def ac(ctx,*,content):
         colour=discord.Colour.blue()
         )
 
-        embed.set_footer(text='Made by Just for fun#4278||Super Trivia Official')
+        embed.set_footer(text='Made by Just DEVIL RAKSHIT||Dragon Trivia 2.o')
         embed.add_field(name='\u200b' , value=f'''GAME ------  {gamename}''' , inline=False)
         embed.add_field(name='\u200b' , value=f'''GAME TIME -----  {gametime}''' , inline=False)
         embed.add_field(name='\u200b' , value=f'''ACCURACY --------- {accuracy}''' , inline=False)
@@ -211,4 +211,4 @@ async def a(ctx,*,message):
 
 
 #token
-bot.run('NTg5MDQyMjI2NzE4NDQxNDcz.XQN6lw.S5qmbkKnV4fLRcFfOlkePvEupkE')
+bot.run('NjQxOTczODQ3MDM3MzEzMDI0.XdDbxw.a0sm_PuIfHEKiLfZEFB4b1jTEe4')
