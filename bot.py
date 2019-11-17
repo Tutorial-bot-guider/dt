@@ -193,7 +193,7 @@ async def ac(ctx,*,content):
         await ctx.send('@everyone')
 
     else:
-        await ctx.send('Lol You have no perms')
+        await ctx.send('Lol You have not perms')
 
 
 
