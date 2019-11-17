@@ -211,4 +211,4 @@ async def a(ctx,*,message):
 
 
 #token
-bot.run('NjQxOTczODQ3MDM3MzEzMDI0.XdDbxw.a0sm_PuIfHEKiLfZEFB4b1jTEe4')
+bot.run('NjQxOTczODQ3MDM3MzEzMDI0.XdDgFA.Qnh8z3HLZKV1IGj9aCMU3JkrywE')
